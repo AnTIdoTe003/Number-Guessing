@@ -17,10 +17,10 @@ count = 0
 while count < 5:
 	count += 1
 
-	# taking guessing number as input
+	
 	guess = int(input("Guess a number:- "))
 
-	# Condition testing
+	
 	if x == guess:
 		print("Congratulations you did it in ",
 			count, " try")
